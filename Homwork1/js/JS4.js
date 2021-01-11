@@ -5,19 +5,19 @@ for (let i = 1; i <= 10; i++) {
 
 	if (i % 1 === i % 2) {
 
-		} else if (i % 1 === i % 3) {
+	} else if (i % 1 === i % 3) {
 
-		} else if (i % 1 === 0) {
-			console.log(i, 'Buz');
-		}
+	} else if (i % 1 === 0) {
+		console.log(i, 'Buz');
+	}
 
 	if (i % 2 === i % 3) {
-		
-		} else if (i % 2 === 0) {
-			console.log(i, 'Fiz');
-		}
+
+	} else if (i % 2 === 0) {
+		console.log(i, 'Fiz');
+	}
 
 	if (i % 3 === 0) {
 		console.log(i, 'FizBuz');
-		} 
+	}
 }

@@ -15,7 +15,7 @@ while (count) {
 //вариант: 3.
 let i = 0;
 
-while (i<50) {
+while (i < 50) {
 	i++
 	console.log(i);
 }
