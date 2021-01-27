@@ -1,4 +1,4 @@
-Object.prototype.getUnique = function () {
+Array.prototype.getUnique = function () {
   let result = [];
   for (let item of this) {
     if (!result.includes(item)) {
