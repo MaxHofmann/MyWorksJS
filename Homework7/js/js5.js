@@ -39,7 +39,7 @@ function getStudentsList(arrayOfStudents) {
   arrayOfStudents.forEach((item) => {
     let SetItem = Object.entries(item).map((value) => value.join(" - "));
     item.toString = function () {
-		return SetItem.join(", ")
+      return SetItem.join(", ");
     };
     console.log(String(item));
   });
