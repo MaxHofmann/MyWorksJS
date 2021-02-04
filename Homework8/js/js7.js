@@ -22,7 +22,7 @@ const funcClick = function (event) {
   function set() {
     if (inputPixel.value > 500) {
       pakemonCat.style.opacity = "0";
-      inputPixel.value = `${"You have a new pakepon " + "КУСЬ"}`;
+      inputPixel.value = "You have a new pakepon - КУСЬ";
     }
   }
 
